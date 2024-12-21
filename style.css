@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap');  
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, #f0c09f, #f1e2a7)
+}
+nav{
+    font-weight: 900;
+    display: flex;
+    font-size: 20px;
+    background-color: #5e8ea1;
+    padding: 20px;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+
+}
+nav li a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+nav li a:hover{
+    text-decoration: none;
+    color: rgb(60, 129, 239);
+    transition: all;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 23px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul{
+    display: flex;
+}
+.container{
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1, h2{
+    /* text-align: center; */
+    margin: 23px 0;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container label{
+    font-size: 25px;
+}
+.container form input[type='number'], select, label{
+    font-size: 25px;
+    margin-bottom: 23px;
+    width: 23vw;
+    text-align: center;
+}
+.btn{
+    width: 144px;
+    padding: 5px 8px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.output{
+    display: none;
+}
+.output table{
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.output table thead{
+    background-color: grey;
+}
+.output table tbody{
+    background-color: rgb(198, 197, 197);
+}
+.output table tfoot{
+    background-color: grey;
+}
+footer{
+    text-align: center;
+}
